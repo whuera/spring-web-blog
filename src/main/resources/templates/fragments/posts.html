@@ -13,10 +13,12 @@
             <div><a th:text="${post.user.username}" th:href="@{'/blog/' + ${post.user.username}}">User</a>
             </div>
         </div>
-        <h3 class="panel-body" th:text="${post.body}">Body</h3>
+        <h4 class="panel-body" th:text="${post.body}">Body</h4>
+        <hr/>
         <br></br>
     </div>
 
 </div>
+<hr/>
 </body>
 </html>

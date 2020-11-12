@@ -106,6 +106,7 @@
             <artifactId>jquery</artifactId>
             <version>2.1.4</version>
         </dependency>
+
     </dependencies>
 
     <build>
