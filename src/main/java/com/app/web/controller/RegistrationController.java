@@ -36,12 +36,12 @@ public class RegistrationController {
         if (userService.findByEmail(user.getEmail()).isPresent()) {
             bindingResult
                     .rejectValue("email", "error.user",
-                            "There is already a user registered with the email provided");
+                            "Ya existe un usuario con el mismo email");
         }
         if (userService.findByUsername(user.getUsername()).isPresent()) {
             bindingResult
                     .rejectValue("username", "error.user",
-                            "There is already a user registered with the username provided");
+                            "ya existe un usuario con el mismo id");
         }
 
         if (!bindingResult.hasErrors()) {
@@ -49,7 +49,7 @@ public class RegistrationController {
             // Set user role to USER and set it as active
             userService.save(user);
 
-            model.addAttribute("successMessage", "User has been registered successfully");
+            model.addAttribute("successMessage", "El usuario ha sido registrado correctamente");
             model.addAttribute("user", new User());
         }
 
