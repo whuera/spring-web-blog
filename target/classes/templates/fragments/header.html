@@ -26,7 +26,7 @@
             </div>
             <div id="navbar" class="collapse navbar-collapse navbar-right">
                 <!-- show registration only if user is not yet authenticated -->
-                <ul class="navbar-nav mr-auto mt-2 mt-lg-0" sec:authorize="!isAuthenticated()">
+                <ul class="navbar-nav mt-2 mt-lg-0" sec:authorize="!isAuthenticated()">
                     <li class="active"><a th:href="@{/registration}">Registro</a></li>
                 </ul>
                 <!-- show login only if user is not yet authenticated -->
