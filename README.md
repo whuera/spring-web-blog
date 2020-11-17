@@ -82,7 +82,8 @@ Admin password: **admin**
 
 **Registro primera vez**
 desde el url: `http://localhost:8090/registration`.
-desde ![aws](https://img.shields.io/badge/AWS-project-yellowgreen) AWS url: <http://52.91.204.181:8090/home>.
+
+desde ![aws](https://img.shields.io/badge/AWS-project-yellowgreen) url: <http://52.91.204.181:8090/home>.
 
 | Acción | Url | Pantalla |
 |--------|-----|----------|
