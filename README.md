@@ -87,6 +87,8 @@ desde AWS url: <http://34.239.114.195:8090/home>.
 | | |
 | Home | ``http://localhost:8090/home`` | ![image3](https://github.com/whuera/assets/blob/main/2020-11-16%2020_36_37-Window.png) |
 
+### Patrón de compilación y publicación
+![image1](https://github.com/whuera/assets/blob/main/2020-11-16%2023_57_18-Window.png)
 
 
 #### Ejecución manual "Executable Jar"
