@@ -77,7 +77,7 @@ Admin password: **admin**
 
 **Registro primera vez**
 desde el url: `http://localhost:8090/registration`.
-desde AWS url: <http://34.239.114.195:8090/home>.
+desde AWS url: <http://52.91.204.181:8090/home>.
 
 | Acción | Url | Pantalla |
 |--------|-----|----------|
