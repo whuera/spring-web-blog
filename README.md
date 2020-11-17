@@ -29,6 +29,16 @@ Paso 1: clonar el repositorio github, utilizar los comandos desde la consola Win
 git init
 git clone https://github.com/whuera/spring-web-blog.git.
 
+**Referencia GitHub**
+
+para efectos de desarrollo usar la rama develop (Gestión GitHub / usuarios avanzados).
+cambiarse a develop usando lo siguiente:
+
+| Comando |  Pantalla  |
+| --------- | -------- |
+| git checkout develop | ![image1](https://github.com/whuera/assets/blob/main/2020-11-16%2020_51_53-Git%20Graph%20-%20spring-web-blog%20-%20Visual%20Studio%20Code.png) |
+| | |
+
 
 una vez descargado el repo ubicarse dentro de la carpeta:
 
@@ -70,9 +80,9 @@ desde el url: `http://localhost:8090/registration`
 |--------|-----|----------|
 | Registrarse | `http://localhost:8090/registration` | ![image1](https://github.com/whuera/assets/blob/main/2020-11-16%2020_27_55-Window.png) |
 | | |
-| Login | `http://localhost:8090/login` | ![image2](https://github.com/whuera/assets/blob/main/2020-11-16%2020_33_50-Window.png) |
+| Login | ``http://localhost:8090/login`` | ![image2](https://github.com/whuera/assets/blob/main/2020-11-16%2020_33_50-Window.png) |
 | | |
-| Home | `http://localhost:8090/home` | ![image3](https://github.com/whuera/assets/blob/main/2020-11-16%2020_36_37-Window.png) |
+| Home | ``http://localhost:8090/home`` | ![image3](https://github.com/whuera/assets/blob/main/2020-11-16%2020_36_37-Window.png) |
 
 
 
@@ -135,7 +145,7 @@ Tests can be run by executing following command from the root of the project:
 $ mvn test
 ```
 
-## Helper Tools
+## Tools
 
 ### HAL REST Browser
 
