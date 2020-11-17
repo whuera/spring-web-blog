@@ -33,10 +33,14 @@ mvn spring-boot:run
 | Escenario |  Comando  | Resultado |
 | --------- | -------- |-------- |
 | Windows | mvn spring-boot:run | ![Result1](https://github.com/whuera/assets/blob/main/2020-11-16%2020_15_38-Window.png) |
-| Linux | mvn spring-boot:run | ![Result2](https://github.com/whuera/assets/blob/main/2020-11-16%2020_17_36-Window.png) |
+| | | |
+| Linux | chmod +x scripts/mvnw & mvnw spring-boot:run | ![Result2](https://github.com/whuera/assets/blob/main/2020-11-16%2020_17_36-Window.png) |
 | | | |
 
-
+```bash
+$ chmod +x scripts/mvnw
+$ scripts/mvnw spring-boot:run
+```
 
 Una vez ejecutado el comando ir al browser y tipear el url: `http://localhost:8090/home`
 Para probar el dashboard usar o seguir los pasos para registrarse como usuario
@@ -50,7 +54,9 @@ desde el url: `http://localhost:8090/registration`
 |--------|-----|----------|
 | Registrarse | `http://localhost:8090/registration` | ![image1](https://github.com/whuera/assets/blob/main/2020-11-16%2020_27_55-Window.png) |
 | | |
-
+| Login | `http://localhost:8090/login` | ![image2](https://github.com/whuera/assets/blob/main/2020-11-16%2020_33_50-Window.png) |
+| | |
+| Home | `http://localhost:8090/login` | ![image3](https://github.com/whuera/assets/blob/main/2020-11-16%2020_36_37-Window.png) |
 
 
 ### Maven Wrapper
