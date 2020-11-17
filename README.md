@@ -8,7 +8,23 @@ Proyecto Web, para generar un sistema de Web Blog, donde se genere blog's por us
 **Pre requisito:**
 Java 1.8
 Maven
+validar si tiene instalado dentro de su sistema los pre requisitos:
 
+```bash
+$ java -version
+java version "1.8.0_102"
+Java(TM) SE Runtime Environment (build 1.8.0_102-b14)
+Java HotSpot(TM) 64-Bit Server VM (build 25.102-b14, mixed mode)
+```
+
+```bash
+$ mvn -v
+Apache Maven 3.3.9 (bb52d8502b132ec0a5a3f4c09453c07478323dc5; 2015-11-10T16:41:47+00:00)
+Maven home: /usr/local/Cellar/maven/3.3.9/libexec
+Java version: 1.8.0_102, vendor: Oracle Corporation.
+```
+
+**Pasos**
 Paso 1: clonar el repositorio github, utilizar los comandos desde la consola Windows / Linux
 git init
 git clone https://github.com/whuera/spring-web-blog.git.
@@ -56,78 +72,27 @@ desde el url: `http://localhost:8090/registration`
 | | |
 | Login | `http://localhost:8090/login` | ![image2](https://github.com/whuera/assets/blob/main/2020-11-16%2020_33_50-Window.png) |
 | | |
-| Home | `http://localhost:8090/login` | ![image3](https://github.com/whuera/assets/blob/main/2020-11-16%2020_36_37-Window.png) |
+| Home | `http://localhost:8090/home` | ![image3](https://github.com/whuera/assets/blob/main/2020-11-16%2020_36_37-Window.png) |
 
 
-### Maven Wrapper
 
-#### Using the Maven Plugin
+#### Ejecución manual "Executable Jar"
 
-Go to the root folder of the application and type:
-```bash
-$ chmod +x scripts/mvnw
-$ scripts/mvnw spring-boot:run
-```
-
-#### Using Executable Jar
-
-Or you can build the JAR file with 
+limpiar instalaciones anteriores de maven:
 ```bash
 $ scripts/mvnw clean package
 ``` 
 
-Then you can run the JAR file:
+Ubicarse dentro de la carpeta spring-web-blog/target y Ejecutar el archivo .jar :
 ```bash
 $ java -jar target/blog-demo-0.0.1-SNAPSHOT.jar
 ```
 
-### Maven
+Para terminar la aplicación, presionar / digitar  **ctrl-c**.
+### Usuario Avanzado
+**Ejecución en Docker**
 
-Open a terminal and run the following commands to ensure that you have valid versions of Java and Maven installed:
-
-```bash
-$ java -version
-java version "1.8.0_102"
-Java(TM) SE Runtime Environment (build 1.8.0_102-b14)
-Java HotSpot(TM) 64-Bit Server VM (build 25.102-b14, mixed mode)
-```
-
-```bash
-$ mvn -v
-Apache Maven 3.3.9 (bb52d8502b132ec0a5a3f4c09453c07478323dc5; 2015-11-10T16:41:47+00:00)
-Maven home: /usr/local/Cellar/maven/3.3.9/libexec
-Java version: 1.8.0_102, vendor: Oracle Corporation
-```
-
-#### Using the Maven Plugin
-
-The Spring Boot Maven plugin includes a run goal that can be used to quickly compile and run your application. 
-Applications run in an exploded form, as they do in your IDE. 
-The following example shows a typical Maven command to run a Spring Boot application:
- 
-```bash
-$ mvn spring-boot:run
-``` 
-
-#### Using Executable Jar
-
-To create an executable jar run:
-
-```bash
-$ mvn clean package
-``` 
-
-To run that application, use the java -jar command, as follows:
-
-```bash
-$ java -jar target/blog-demo-0.0.1-SNAPSHOT.jar
-```
-
-To exit the application, press **ctrl-c**.
-
-### Docker
-
-It is possible to run **blog-demo** using Docker:
+using Docker:
 
 Build Docker image:
 ```bash
@@ -151,7 +116,7 @@ $ chmod +x scripts/run_docker.sh
 $ scripts/run_docker.sh
 ```
 
-## Docker 
+## Docker (Especificaciones en Ingles)
 
 Folder **docker** contains:
 
