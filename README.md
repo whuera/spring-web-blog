@@ -27,8 +27,8 @@ Java version: 1.8.0_102, vendor: Oracle Corporation.
 **Pasos**
 Paso 1: clonar el repositorio github, utilizar los comandos desde la consola Windows / Linux.
 
-``git init
-git clone https://github.com/whuera/spring-web-blog.git``
+``git init``
+``git clone https://github.com/whuera/spring-web-blog.git``
 
 **Referencia GitHub**
 
