@@ -1,4 +1,4 @@
-# Spring Boot Blog Demo
+# Web Blog
 
 ## Resumen
 
@@ -30,16 +30,28 @@ El sistema, funciona sobre la plataforma Spring-boot y contiene una implementaci
 
 Una vez clonado el repo desde GitHub, y habernos ubicado dentro de la carpeta spring-web-blog, ejecutamos el siguiente comendo.
 mvn spring-boot:run
+| Escenario |  Comando  | Resultado |
+| --------- | -------- |-------- |
+| Windows | mvn spring-boot:run | ![Result1](https://github.com/whuera/assets/blob/main/2020-11-16%2020_15_38-Window.png) |
+| Linux | mvn spring-boot:run | ![Result2](https://github.com/whuera/assets/blob/main/2020-11-16%2020_17_36-Window.png) |
+| | | |
 
-Once the app starts, go to the web browser and visit `http://localhost:8090/home`
 
+
+Una vez ejecutado el comando ir al browser y tipear el url: `http://localhost:8090/home`
+Para probar el dashboard usar o seguir los pasos para registrarse como usuario
 Admin username: **admin**
 
 Admin password: **admin**
 
-User username: **user**
+**Registro primera vez**
+desde el url: `http://localhost:8090/registration`
+| Acción | Url | Pantalla |
+|--------|-----|----------|
+| Registrarse | `http://localhost:8090/registration` | ![image1](https://github.com/whuera/assets/blob/main/2020-11-16%2020_27_55-Window.png) |
+| | |
 
-User password: **password**
+
 
 ### Maven Wrapper
 
