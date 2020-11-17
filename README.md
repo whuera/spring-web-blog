@@ -1,3 +1,8 @@
+[![GitHub license](https://img.shields.io/github/license/whuera/spring-web-blog)](https://github.com/whuera/spring-web-blog/blob/main/LICENSE)
+[![GitHub issues](https://img.shields.io/github/issues/whuera/spring-web-blog)](https://github.com/whuera/spring-web-blog/issues)
+[![GitHub forks](https://img.shields.io/github/forks/whuera/spring-web-blog)](https://github.com/whuera/spring-web-blog/network)
+
+
 # Web Blog
 
 ## Resumen
