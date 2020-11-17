@@ -77,6 +77,8 @@ Admin password: **admin**
 
 **Registro primera vez**
 desde el url: `http://localhost:8090/registration`
+desde AWS url: `http://34.239.114.195:8090/home`
+
 | Acción | Url | Pantalla |
 |--------|-----|----------|
 | Registrarse | `http://localhost:8090/registration` | ![image1](https://github.com/whuera/assets/blob/main/2020-11-16%2020_27_55-Window.png) |
