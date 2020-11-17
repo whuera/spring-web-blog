@@ -1,36 +1,35 @@
 # Spring Boot Blog Demo
 
-## About
+## Resumen
 
-This is a demo project for practicing **Spring Boot + Thymeleaf**. 
-The idea was to build some basic blogging platform.
+Proyecto Web, para generar un sistema de Web Blog, donde se genere blog's por usuario registrado.
 
-It was made using **Spring Boot**, **Spring Security**, **Thymeleaf**, **Spring Data JPA**, **Spring Data REST** and **Docker**. 
-Database is in memory **H2**.
+## Configuración
+**Pre requisito:**
+Java 1.8
+Maven
 
-There is a login and registration functionality included.
+Paso 1: clonar el repositorio github, utilizar los comandos desde la consola Windows / Linux
+git init
+git clone https://github.com/whuera/spring-web-blog.git.
 
-User has his own blog page, where he can add new blog posts. 
-Every authenticated user can comment on posts made by other users.
-Home page is paginated list of all posts.
-Non-authenticated users can see all blog posts, but cannot add new posts or comment.
 
-![Screenshot 1](https://user-images.githubusercontent.com/7095876/37773737-ae6a8b56-2dde-11e8-8a7f-5f259695bdc9.png)
+una vez descargado el repo ubicarse dentro de la carpeta:
 
-![Screenshot 1](https://user-images.githubusercontent.com/7095876/37773767-bbcb292c-2dde-11e8-91f8-2a05fe84e05e.png)
+| Escenario |  Comando  |
+| --------- | -------- |
+| Windows | cd spring-web-blog/ |
+| Linux | spring-web-blog/ |
+| | |
 
-## Configuration
+## Referencia técnica:
 
-### Configuration Files
+El sistema, funciona sobre la plataforma Spring-boot y contiene una implementación web con thymeleaf, más una base de datos en memoria H2
 
-Folder **src/resources/** contains config files for **blog-demo** Spring Boot application.
+## Como ejecutar
 
-* **src/resources/application.properties** - main configuration file. Here it is possible to change admin username/password,
-as well as change the port number.
-
-## How to run
-
-There are several ways to run the application. You can run it from the command line with included Maven Wrapper, Maven or Docker. 
+Una vez clonado el repo desde GitHub, y habernos ubicado dentro de la carpeta spring-web-blog, ejecutamos el siguiente comendo.
+mvn spring-boot:run
 
 Once the app starts, go to the web browser and visit `http://localhost:8090/home`
 
