@@ -19,4 +19,9 @@ public class ModelDto {
      */
     public ModelDto() {
     }
+    public void marshaller() {
+        ModelDto modelDto = new ModelDto();
+        modelDto.user.setName("Test1");
+        System.out.println("generate marshall");
+    }
 }
