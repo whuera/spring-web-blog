@@ -14,6 +14,9 @@ public class ModelDto {
     private Post post;
     private Comment comment;
 
+    /**
+     * create constructor
+     */
     public ModelDto() {
     }
 }
